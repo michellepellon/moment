@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/michellepellon/moment" target="_blank" rel="noreferrer noopener"><img width="250" alt="Moment's mascot" src="https://raw.githubusercontent.com/michellepellon/moment/main/icons/icon128.png"></a></p>
+<p align="center"><a href="https://github.com/michellepellon/moment" target="_blank" rel="noreferrer noopener"><img width="188" alt="Moment's mascot" src="https://raw.githubusercontent.com/michellepellon/moment/main/icons/icon128.png"></a></p>
 
 <h2 align="center">Moment</h2>
 
