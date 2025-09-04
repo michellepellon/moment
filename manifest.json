@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Moment",
+  "version": "1.0.0",
+  "author": "Michelle Pellon",
+  "description": "A breathing tool to slow down by helping you synchronize your heart rate with your breathing to bring on a feeling of calmness.",
+  "permissions": [
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "Moment",
+    "default_popup": "src/popup.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/bell.mp3"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
