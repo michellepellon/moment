@@ -573,7 +573,7 @@ body {
 }
 
 .about-text .heart {
-  color: var(--color-primary);
+  color: #DC362E;
   opacity: 0.6;
   font-size: 11px;
   display: inline-block;
