@@ -443,9 +443,9 @@ body {
 
 /* Haiku Section */
 .haiku-section {
-  padding: calc(var(--space) * 8) 0;
+  padding: calc(var(--space) * 6) 0 calc(var(--space) * 4);
   text-align: center;
-  margin-bottom: calc(var(--space) * 6);
+  margin-bottom: calc(var(--space) * 3);
 }
 
 .haiku-line {
@@ -479,8 +479,9 @@ body {
 
 /* River Visualization */
 .river-container {
-  margin-top: calc(var(--space) * 4);
-  padding: calc(var(--space) * 2) 0;
+  margin-top: calc(var(--space) * 2);
+  margin-bottom: calc(var(--space) * 8);
+  padding: calc(var(--space) * 1) 0;
 }
 
 .river-label {
@@ -491,14 +492,14 @@ body {
   opacity: 0.6;
   letter-spacing: -0.08px;
   text-align: center;
-  margin-bottom: calc(var(--space) * 3);
+  margin-bottom: calc(var(--space) * 2);
 }
 
 .river-flow {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  height: 120px;
+  height: 80px;
   padding: 0 calc(var(--space) * 2);
   position: relative;
   overflow: hidden;

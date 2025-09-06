@@ -65,37 +65,19 @@ function ReflectionView() {
   };
   
   const generateHaiku = (sessionList) => {
-    // Bank of zen koans and wisdom
+    // Dogen quotes
     const koans = [
-      // Classic Koans
-      ['What is the sound', 'of one hand', 'clapping?'],
-      ['Two hands clap', 'and there is a sound.', 'What is the sound of one?'],
-      ['Before your parents were born,', 'what was', 'your original face?'],
-      ['Does a dog', 'have Buddha', 'nature?'],
-      
-      // Water/River themed
-      ['You cannot step', 'into the same river', 'twice'],
-      ['When the water is clear,', 'the moon', 'appears'],
-      ['The pine teaches silence,', 'the rock teaches stillness,', 'water teaches flow'],
-      ['Still water', 'runs', 'deep'],
-      
-      // Practice themed
-      ['Sitting quietly,', 'doing nothing,', 'spring comes'],
-      ['The way is not difficult', 'for those who have', 'no preferences'],
-      ['When walking, walk.', 'When sitting, sit.', 'Above all, don\'t wobble'],
-      ['Ten thousand flowers', 'in spring, the moon in autumn,', 'a cool breeze'],
-      
-      // Presence themed  
-      ['This moment', 'is all', 'you have'],
-      ['Nowhere to go,', 'nothing to do,', 'no one to be'],
-      ['The miracle is not', 'to walk on water,', 'but on earth'],
-      ['Be here', 'now,', 'always'],
-      
-      // Emptiness themed
-      ['Form is emptiness,', 'emptiness', 'is form'],
-      ['First mountains are mountains,', 'then mountains are not mountains,', 'then mountains are mountains'],
-      ['The cup is useful', 'because', 'it is empty'],
-      ['In the beginner\'s mind', 'there are many possibilities,', 'in the expert\'s, few']
+      ['If you are unable to find', 'the truth right where you are,', 'where else do you expect to find it?'],
+      ['A fool sees himself', 'as another, but a wise man', 'sees others as himself.'],
+      ['If you want to travel', 'the Way of Buddhas and Zen masters,', 'then expect nothing, seek nothing, and grasp nothing.'],
+      ['If you want to see', 'things just as they are,', 'then you yourself must practice just as you are.'],
+      ['Those who seek', 'the easy way', 'do not seek the true way.'],
+      ['Prefer to be defeated', 'in the presence of the wise', 'than to excel among fools.'],
+      ['To study Buddhism', 'is to study ourselves.', 'To study ourselves is to forget ourselves.'],
+      ['The whole moon', 'and the entire sky', 'are reflected in one dewdrop on the grass.'],
+      ['Enlightenment', 'is intimacy', 'with all things.'],
+      ['When both body and mind are at peace,', 'all things appear as they are:', 'perfect, complete, lacking nothing.'],
+      ['A flower falls,', 'even though we love it;', 'and a weed grows, even though we do not love it.']
     ];
     
     if (sessionList.length === 0) {
